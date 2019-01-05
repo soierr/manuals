@@ -1,6 +1,6 @@
 # How to change default console uart port for Orange Pi
 
-Consider for example uart1.  
+Consider for example `uart1`  
 Go to `/boot/`
   
 `sudo bin2fex script.bin custom.bin`
