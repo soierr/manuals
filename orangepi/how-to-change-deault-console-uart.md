@@ -32,6 +32,6 @@ to:
     if test "${console}" = "display" || test "${console}" = "both"; then setenv consoleargs "console=tty2"; fi
     if test "${console}" = "serial" || test "${console}" = "both"; then setenv consoleargs "${consoleargs} console=ttyS1,115200"; fi
 
-then do `sudo mkimage -C none -A arm -T script -d boot.cmd boot.scr` and `sudo reboot`
-Enjoy.
+then do `sudo mkimage -C none -A arm -T script -d boot.cmd boot.scr` and `sudo reboot`  
+Enjoy
 
